@@ -2,7 +2,7 @@
 
 ## Installing g++ and make
 1. Download the installer
-[MSYS2]https://www.msys2.org/
+[MSYS2](https://www.msys2.org/)
 2. Follow the steps mentioned in the link above
 3. After installating In the Windows search bar, type 'settings' to open your Windows Settings.
 4. Search for Edit environment variables for your account.
@@ -14,7 +14,7 @@ location to be available.
 
 ## Installing CMake
 1. Insall from Binary distributions
-[CMake]https://cmake.org/download/
+[CMake](https://cmake.org/download/)
 2. Run the installer.
 3. When asked for, select “Add CMake to the system PATH for all users”.
 4. Complete the installation.
@@ -22,7 +22,7 @@ location to be available.
 
 ## Installing OpenCV
 OpenCV by default provides binaries to compile with visual studio which is available for download
-[here]https://github.com/opencv/opencv/releases/tag/4.5.3
+[here](https://github.com/opencv/opencv/releases/tag/4.5.3)
 1. Download OpenCV for windows from above link by downloading opencv-4.5.3-vc14_vc15.exe from the 
 link above and extract it in C:\opencv
 ### Installing OpenCV from source to compile with MinGW on Windows
