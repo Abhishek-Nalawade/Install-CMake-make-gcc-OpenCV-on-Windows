@@ -1,4 +1,4 @@
-# Installation of make, g++, CMake and OpenCV on Windows
+# Install make, g++, CMake and OpenCV on Windows
 
 ## Installing g++ and make
 1. Download the installer
@@ -30,11 +30,17 @@ link above and extract it in C:\opencv
 3. Inside the opencv-4.5.3 folder create a new folder named build.
 4. In command prompt navigate to the above directory and type ```cmake -G "MSYS Makefiles" ..```
 5. Next type ```mingw32-make install```. This will take time to complete.
-6. Once it has completed navigate to ``` ``` and copy the folder mingw and paste it in the directory 
-```C:\opencv\build\x64``` where you can see v14 and vc15 folders.
+6. Once it has completed navigate to ```C:\opencv-4.5.3\build\install\x64``` and copy the folder mingw 
+and paste it in the directory ```C:\opencv\build\x64``` where you can see v14 and vc15 folders.
 7. Now add ```C:\opencv\build\x64``` and ```C:\opencv\build\x64``` to PATH by following the steps 
 mentioned in the installation process for g++ and make
 8. Reopen any console windows for the new PATH location to be available.
+
+### Alternate for building OpenCV from source
+1. Download the zip file named mingw provided in the repository and extract the folder inside
+2. Copy the folder mingw and paste it in the directory ```C:\opencv\build\x64``` where you can 
+see v14 and vc15 folders.
+3. Follow steps 7 and 8 from above.
 
 ## Check proper Installation
 1. Clone the repository using
