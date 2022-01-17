@@ -1,10 +1,10 @@
 # Install make, g++, CMake and OpenCV on Windows
 
 ## Installing g++ and make
-1. Download the installer
+1. Download the installer from here
 [MSYS2](https://www.msys2.org/)
 2. Follow the steps mentioned in the link above
-3. After installating In the Windows search bar, type 'settings' to open your Windows Settings.
+3. After installating, in the Windows search bar, type 'settings' to open your Windows Settings.
 4. Search for Edit environment variables for your account.
 5. Choose the Path variable and then select Edit, click new and paste ```C:\msys64\mingw64\bin``` if 
 the installation is done at the default location.
@@ -13,7 +13,7 @@ the installation is done at the default location.
 location to be available.
 
 ## Installing CMake
-1. Insall from Binary distributions
+1. Install from Binary distributions from here 
 [CMake](https://cmake.org/download/)
 2. Run the installer.
 3. When asked for, select “Add CMake to the system PATH for all users”.
@@ -31,7 +31,7 @@ link above and extract it in C:\opencv
 4. In command prompt navigate to the above directory and type ```cmake -G "MSYS Makefiles" ..```
 5. Next type ```mingw32-make install```. This will take time to complete.
 6. Once it has completed navigate to ```C:\opencv-4.5.3\build\install\x64``` and copy the folder mingw 
-and paste it in the directory ```C:\opencv\build\x64``` where you can see v14 and vc15 folders.
+and paste it in the directory ```C:\opencv\build\x64``` where you can see vc14 and vc15 folders.
 7. Now add ```C:\opencv\build\x64``` and ```C:\opencv\build\x64``` to PATH by following the steps 
 mentioned in the installation process for g++ and make
 8. Reopen any console windows for the new PATH location to be available.
@@ -39,7 +39,7 @@ mentioned in the installation process for g++ and make
 ### Alternate for building OpenCV from source
 1. Download the zip file named mingw provided in the repository and extract the folder inside
 2. Copy the folder mingw and paste it in the directory ```C:\opencv\build\x64``` where you can 
-see v14 and vc15 folders.
+see vc14 and vc15 folders.
 3. Follow steps 7 and 8 from above.
 
 ## Check proper Installation
